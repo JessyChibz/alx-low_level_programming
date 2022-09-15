@@ -27,7 +27,7 @@ int main(void)
 			break;
 
 		printf(", ");
-		mp = x;
+		tmp = x;
 		x = y;
 		y = x + tmp;
 
