@@ -12,12 +12,12 @@ void print_times_table(int n)
 {
 	for (a = 0; a <= n; a++)
 {
-	putchar (48);
+	_putchar (48);
 	for (b = 1; b <= n; b++)
 {
 	op = a * b;
-	putchar (44);
-	putchar (32);
+	_putchar (44);
+	_putchar (32);
 	if (op <= 9)
 {
 	_putchar (32);
